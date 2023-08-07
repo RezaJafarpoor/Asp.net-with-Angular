@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angularapp", "angularapp\angularapp.esproj", "{C1EC2580-9967-4534-B814-D6E75AC2F0E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi\webapi.csproj", "{135D4578-AC4C-43BC-92BC-A30132BAC16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{28A45EEF-6553-4716-BAFA-968FEEE0827D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A230622A-61F1-46F5-8563-7E449EA274A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1EC2580-9967-4534-B814-D6E75AC2F0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EC2580-9967-4534-B814-D6E75AC2F0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EC2580-9967-4534-B814-D6E75AC2F0E0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C1EC2580-9967-4534-B814-D6E75AC2F0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EC2580-9967-4534-B814-D6E75AC2F0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EC2580-9967-4534-B814-D6E75AC2F0E0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{135D4578-AC4C-43BC-92BC-A30132BAC16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135D4578-AC4C-43BC-92BC-A30132BAC16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135D4578-AC4C-43BC-92BC-A30132BAC16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135D4578-AC4C-43BC-92BC-A30132BAC16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A45EEF-6553-4716-BAFA-968FEEE0827D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A45EEF-6553-4716-BAFA-968FEEE0827D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A45EEF-6553-4716-BAFA-968FEEE0827D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A45EEF-6553-4716-BAFA-968FEEE0827D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A230622A-61F1-46F5-8563-7E449EA274A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A230622A-61F1-46F5-8563-7E449EA274A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A230622A-61F1-46F5-8563-7E449EA274A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A230622A-61F1-46F5-8563-7E449EA274A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA7073A9-97C8-4269-87FB-EE6C35C7C5CC}
+	EndGlobalSection
+EndGlobal
