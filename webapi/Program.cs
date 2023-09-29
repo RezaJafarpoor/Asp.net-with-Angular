@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Infrastructure.DataBase;
 using Core.Interfaces;
 using webapi.util;
+using webapi.middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 var DbConnection = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -17,13 +18,14 @@ builder.Services.AddScoped((typeof(IGenericRepository<>)),typeof(GenericReposito
 builder.Services.AddAutoMapper(typeof(MappingProfiles));
 var app = builder.Build();
 
+app.UseMiddleware<ExceptionMiddleware>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
+{   
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStatusCodePagesWithReExecute("/error/{0}");
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseStaticFiles();
