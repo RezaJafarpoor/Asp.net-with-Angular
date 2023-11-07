@@ -1,1 +1,2 @@
-# skinet
+simple SPA for learning purposes
+() 
